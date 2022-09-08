@@ -12,7 +12,7 @@ export const Favourites = () => {
     <>
       <Row>
         <Col xs={2} className="mx-auto mt-4">
-          <Button variant="dark" onClick={() => navigate("/")}>
+          <Button variant="light" onClick={() => navigate("/")}>
             Back to Home
           </Button>
         </Col>

@@ -42,7 +42,7 @@ const MainSearch = () => {
         <Col xs={2} className="mx-auto mt-4">
           <Button variant="light" onClick={() => navigate("/favourites")}>
             Favourites
-            <Badge className="ml-2" bg="success">
+            <Badge className="ml-2 p-2" variant="success">
               {favLength}
             </Badge>
             {/* <span className="visually-hidden">unread messages</span> */}
