@@ -45,7 +45,6 @@ const MainSearch = () => {
             <Badge className="ml-2 p-2" variant="success">
               {favLength}
             </Badge>
-            {/* <span className="visually-hidden">unread messages</span> */}
           </Button>
         </Col>
         <Col xs={10} className="mx-auto">

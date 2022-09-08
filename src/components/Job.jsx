@@ -19,7 +19,6 @@ const Job = ({ data }) => {
             className="text-danger"
             style={{ cursor: "pointer" }}
             onClick={() => {
-              console.log("ora faccio il dispatch di un'action");
               dispatch({
                 type: "REMOVE_FROM_FAVOURITES",
                 payload: data._id,
@@ -31,7 +30,6 @@ const Job = ({ data }) => {
             className="text-danger"
             style={{ cursor: "pointer" }}
             onClick={() => {
-              console.log("ora faccio il dispatch di un'action");
               dispatch({
                 type: "ADD_TO_FAVOURITES",
                 payload: data,
