@@ -37,12 +37,12 @@ const MainSearch = () => {
     <Container>
       <Row>
         <Col xs={6} className="mx-auto my-3">
-          <h1>Remote Jobs Search</h1>
+          <h1 className="text-light">Remote Jobs Search</h1>
         </Col>
         <Col xs={2} className="mx-auto mt-4">
-          <Button variant="dark" onClick={() => navigate("/favourites")}>
+          <Button variant="light" onClick={() => navigate("/favourites")}>
             Favourites
-            <Badge className="ml-2" bg="light">
+            <Badge className="ml-2" bg="success">
               {favLength}
             </Badge>
             {/* <span className="visually-hidden">unread messages</span> */}
