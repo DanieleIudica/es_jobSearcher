@@ -8,6 +8,7 @@ const MainSearch = () => {
   const [query, setQuery] = useState("");
   const [jobs, setJobs] = useState([]);
   const navigate = useNavigate();
+
   const favLength = useSelector((state) => state.favourites.content.length);
 
   const baseEndpoint = "https://strive-jobs-api.herokuapp.com/jobs?search=";
@@ -53,7 +54,7 @@ const MainSearch = () => {
               type="search"
               value={query}
               onChange={handleChange}
-              placeholder="type and press Enter"
+              placeholder="Type and press Enter"
             />
           </Form>
         </Col>
